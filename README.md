@@ -13,7 +13,7 @@ Analysis:
     * Rows with missing values were removed.
     * The SelectKBest method was performed on the remaining independent variables to determine if any were insignificant and could be removed before modeling.  Four variables were identified as insignificant and were removed:  koi_slogg, ra, dec, and koi_kepmag.
     
-2.  Before modeling, the data was split into training and testing data sets and the indepdent (numeric) variables were scaled.
+2.  Before modeling, the data was split into training and testing data sets and the independent (numeric) variables were scaled.
 
 3.  Three different classification models were used to classify the data:  KNN (K Nearest Neighbor), SVM, and Random Forest.  For each of these three classification models, after the initial model was fit, Grid Search was used to tune the parameters and find the best fitting model.
 
