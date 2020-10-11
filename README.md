@@ -22,3 +22,5 @@ Conclusion:
 
 The Random Forest classification model was the most predictive of the three.  An initial model was fit using n=200 estimators.  Grid Search was performed using five different n-estimators (200, 400, 600, 800, and 1,000) and two different max features (auto and sqrt).  The best fitting model was n=800 estimators with max_features = sqrt.  This model had an accuracy of 90% compared to best KNN model (accuracy of 84%) and best SVM model (accuracy of 81%).
 
+While all three classifiers did well at correctly classifying False Positives (each had an F1 Score of 98% for False Positives), the Random Forest classifer did best at classifying Candidates and Confirmed exoplanets (81% and 82% respectively) but does have room for improvement at correctly classifying these two groups.  Most of the misclassifications were between these two groups rather than classifying them as False Positives.  
+
