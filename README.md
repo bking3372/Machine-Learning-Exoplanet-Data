@@ -1,4 +1,4 @@
-# machine-learning-challenge
+# Machine Learning Classification Models with Exoplanet Data
 
 Background:  Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our soloar system.
 
