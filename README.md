@@ -2,7 +2,7 @@
 
 ### Background:  Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our soloar system.
 
-###Objective:  Create machine learning models capable of classifying candidate exoplanets from the Kepler Exoplanet data.
+### Objective:  Create machine learning models capable of classifying candidate exoplanets from the Kepler Exoplanet data.
 
 
 **Analysis:**
