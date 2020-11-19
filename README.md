@@ -1,11 +1,11 @@
 # Machine Learning Classification Models with Exoplanet Data
 
-Background:  Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our soloar system.
+### Background:  Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our soloar system.
 
-Objective:  Create machine learning models capable of classifying candidate exoplanets from the Kepler Exoplanet data.
+**Objective:**  Create machine learning models capable of classifying candidate exoplanets from the Kepler Exoplanet data.
 
 
-Analysis:
+**Analysis:**
 
 1. The first step was to preprocess the data and get it ready for analysis.  
 
@@ -18,7 +18,7 @@ Analysis:
 3.  Three different classification models were used to classify the data:  KNN (K Nearest Neighbor), SVM, and Random Forest.  For each of these three classification models, after the initial model was fit, Grid Search was used to tune the parameters and find the best fitting model.
 
 
-Conclusion:
+**Conclusion:**
 
 The Random Forest classification model was the most predictive of the three.  An initial model was fit using n=200 estimators.  Grid Search was performed using five different n-estimators (200, 400, 600, 800, and 1,000) and two different max features (auto and sqrt).  The best fitting model was n=800 estimators with max_features = sqrt.  This model had an accuracy of 90% compared to best KNN model (accuracy of 84%) and best SVM model (accuracy of 81%).
 
